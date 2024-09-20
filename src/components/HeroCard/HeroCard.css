@@ -1,0 +1,51 @@
+.HeroCard {
+  background-color: #0e0e0e;
+  height: 1800px;
+
+  h1 {
+    color: white;
+    padding: 100px;
+    margin-left: 650px;
+    font-size: 40px;
+  }
+
+  h2 {
+    margin-top: -150px;
+    color: red;
+    margin-left: 530px;
+    font-size: 40px;
+  }
+}
+
+.img__card {
+  margin-left: 250px;
+}
+
+.img__card1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 100px;
+  height: 400px;
+}
+
+.img__card2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 400px;
+  margin-top: 70px;
+}
+
+.new3 {
+  rotate: 90deg;
+  width: 500px;
+  margin-top: -20px;
+  margin-left: 250px;
+}
+
+.card___image__artistas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  margin-left: 80px;
+  margin-top: 100px;
+}
